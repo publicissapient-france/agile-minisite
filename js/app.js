@@ -1,19 +1,16 @@
-
-definePackage("xebia", function(pkg) {
+definePackage("xebia", function (pkg) {
 
     pkg.constants = {
-        VIMEO_CHANNEL_ID : "agilite"
+        VIMEO_CHANNEL_ID: "agilite"
     };
 
     pkg.Application = fwk.Class.extend({
 
-        start : function() {
-            console.log("application started");
-
+        start: function () {
             var videos = new pkg.vimeo.VimeoVideoCollection();
             videos.fetch();
 
-            var videosView = new pkg.vimeo.VimeoVideoCollectionView({collection : videos});
+            var videosView = new pkg.vimeo.VimeoVideoCollectionView({collection: videos});
             videosView.$el.appendTo($("#our-videos .videos-container"));
 
             var articles = new pkg.blog.BlockArticleCollection();
@@ -23,7 +20,6 @@ definePackage("xebia", function(pkg) {
             articlesView.$el.appendTo($("#our-articles .articles-container"));
 
             var navView = new pkg.nav.NavView();
-
 
 
             $('.our-formations .flexslider').flexslider({
