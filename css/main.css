@@ -1,6 +1,6 @@
 /* global styles */
 body {
-    margin: 0px;
+    margin: 0;
     min-width: 1100px;
     color: #6d626b;
     zoom: 1;
@@ -39,15 +39,15 @@ h1, h2 {
 .nav {
     width: 100%;
     height: 35px;
-    top: 0px;
+    top: 0;
     vertical-align: middle;
     text-align: center;
     position: fixed;
     z-index: 20;
     background-color: white;
     border-bottom: 5px solid #bebab8;
-    -webkit-box-shadow: 0px 0px 7px 0px #999;
-    box-shadow: 0px 0px 7px 0px #999;
+    -webkit-box-shadow: 0 0 7px 0 #999;
+    box-shadow: 0 0 7px 0 #999;
 }
 
 .nav .nav-content {
@@ -61,7 +61,7 @@ h1, h2 {
     font: 15px 'UbuntuRegular', Arial, sans-serif;
     color: #6a205f;
     text-transform: uppercase;
-    margin: 0px 15px;
+    margin: 0 15px;
     line-height: 35px;
 }
 
@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 .section .section-content h2 {
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 42px;
 }
 
@@ -118,7 +118,7 @@ h1, h2 {
 }
 
 .tagline-missions {
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 27px;
     color: #00a0d4;
     text-align: left;
@@ -127,7 +127,7 @@ h1, h2 {
 }
 
 .popup-title {
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 27px;
     color: #df0075;
     text-align: left;
@@ -148,7 +148,7 @@ h1, h2 {
 .hello .hello-line {
     position: absolute;
     top: 300px;
-    left: 0px;
+    left: 0;
     width: 100%;
     height: 7px;
     background: url('../images/hello-hr.png') repeat-x;
@@ -166,7 +166,7 @@ h1, h2 {
     position: absolute;
     top: 45px;
     left: 45px;
-    margin: 0px;
+    margin: 0;
 }
 
 .hello .header-agile {
@@ -192,7 +192,7 @@ h1, h2 {
     height: 330px;
     position: absolute;
     top: 300px;
-    right: 0px;
+    right: 0;
     background: white url('../images/icosahedron.png') bottom right no-repeat;
 }
 
@@ -229,7 +229,7 @@ h1, h2 {
 
 .careers {
     width: 100%;
-    padding: 0px;
+    padding: 0;
     position: relative;
 }
 
@@ -401,7 +401,7 @@ h1, h2 {
 }
 
 .careers .job-line .job.job-left .inner-job {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: auto;
 }
 
@@ -412,7 +412,7 @@ h1, h2 {
 
 .careers .job-line .job.job-right .inner-job {
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .careers .job-line:after {
@@ -424,7 +424,7 @@ h1, h2 {
 /* our offer */
 
 .our-offer {
-    background: #f0efed;;
+    background: #6a205f;
 }
 
 .our-offer .our-offer-content {
@@ -436,19 +436,19 @@ h1, h2 {
 }
 
 .our-offer .our-offer-content h2 {
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 42px;
-    color: #6a205f;
+    color: white;
     text-align: left;
 }
 
 .our-offer .our-offer-content p {
-    padding: 0px 15px;
+    padding: 0 15px;
     text-align: justify;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 20px;
-    color: #6a205f;
+    color: white;
 }
 
 .our-offer .our-offer-content .our-offer-subcontent {
@@ -508,7 +508,7 @@ h1, h2 {
     height: 40px;
     font: 13px 'UbuntuRegular', Arial, sans-serif;
     line-height: 15px;
-    color: #6a205f;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -516,7 +516,7 @@ h1, h2 {
 
 .our-formations .formations {
     width: 700px;
-    margin: 0px auto 50px;
+    margin: 0 auto 50px;
 }
 
 .our-formations .formations h4 {
@@ -538,7 +538,7 @@ h1, h2 {
 }
 
 .logo-small {
-    background: url('../images/trust-logos-small.png') 0px 0px no-repeat; /*-170px*/
+    background: url('../images/trust-logos-small.png') 0 0 no-repeat; /*-170px*/
     height: 80px;
     width: 984px;
     display: inline-block;
@@ -552,7 +552,7 @@ h1, h2 {
 }
 
 .logo-small-2 {
-    background: url('../images/trust-logos-small-2.png') 0px 0px no-repeat; /*-170px*/
+    background: url('../images/trust-logos-small-2.png') 0 0 no-repeat; /*-170px*/
     height: 80px;
     width: 984px;
     display: inline-block;
@@ -584,7 +584,7 @@ h1, h2 {
 }
 
 .profils .profils-content h2 {
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 42px;
 }
 
@@ -645,7 +645,7 @@ h1, h2 {
 .our-videos {
     background: url('../images/contact-flare.jpg') no-repeat top right #44093b;
     width: 100%;
-    padding: 0px;
+    padding: 0;
     position: relative;
 }
 
@@ -687,15 +687,15 @@ h1, h2 {
     width: 691px;
     height: 218px;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     background: url('../images/contact-illustration.png') no-repeat;
 }
 
 /* our articles */
 
 .our-articles {
-    padding: 10px 0px;
+    padding: 10px 0;
     position: relative;
     overflow-x: hidden;
 }
@@ -759,7 +759,7 @@ h1, h2 {
     width: 1000px;
     height: 60px;
     clear: both;
-    margin: 0px auto 30px;
+    margin: 0 auto 30px;
     position: relative;
 }
 
@@ -811,14 +811,14 @@ h1, h2 {
     width: 462px;
     margin: auto;
     height: 170px;
-    background: url('../images/footer-alliance.png') 0px 20px no-repeat #f1f0ee;
+    background: url('../images/footer-alliance.png') 0 20px no-repeat #f1f0ee;
 }
 
 .footer .tagline-xebia {
     width: 462px;
     margin: auto;
     height: 111px;
-    background: url('../images/footer-logo-xebia.png') 0px 20px no-repeat #f1f0ee;
+    background: url('../images/footer-logo-xebia.png') 0 20px no-repeat #f1f0ee;
 }
 
 .footer .tagline-alliance {
