@@ -548,7 +548,6 @@ h1, h2 {
     height: 80px;
     background-color: rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-bottom: 30px;
 }
 
 .logo-small-2 {
@@ -565,15 +564,56 @@ h1, h2 {
 /*  profils */
 
 .profils {
-    background-color: #f0efed;
+    background: url("../images/passion-bg.jpg") no-repeat scroll center top transparent;
 }
 
 .profils .profils-content {
     margin: auto;
-    height: 100%;
+    height: 650px;
     width: 1000px;
     position: relative;
     font-size: 13px;
+}
+
+.profils .profils-content .profils-bubble {
+    background: url("../images/passion-bubbles.png") no-repeat scroll 224px 30px transparent;
+    height: 570px;
+}
+
+.profils .profils-content .profils-bubble span {
+    font-family: 'UbuntuLightItalic', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    font-weight: 600;
+    text-align: center;
+}
+
+.profils .coach-agile {
+    width: 110px;
+    font-size: 35px;
+    left: 610px;
+    top: 175px;
+}
+
+.profils .product-owner {
+    width: 130px;
+    font-size: 33px;
+    left: 653px;
+    top: 441px;
+}
+
+.profils .scrum-master {
+    width: 112px;
+    font-size: 27px;
+    left: 229px;
+    top: 341px;
+}
+
+.profils .devops {
+    width: 112px;
+    font-size: 27px;
+    left: 399px;
+    top: 248px;
 }
 
 .profils .profils-content .profils-subcontent {
