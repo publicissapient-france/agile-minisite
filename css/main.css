@@ -586,7 +586,14 @@ h1, h2 {
     position: absolute;
     font-weight: 600;
     text-align: center;
+    cursor:pointer;
 }
+
+.profil-popup .description img {
+    float:left;
+    margin-right:20px;
+}
+
 
 .profils .coach-agile {
     width: 110px;
