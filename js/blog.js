@@ -66,10 +66,14 @@ definePackage("xebia.blog", function(pkg) {
         className : "blog-article",
 
         render : function() {
+            var dateIso = this.model.get('date');
+            var dateParts = dateIso.split(' ')[0].split('-');
+            var date = dateParts[2]+'/'+dateParts[1]+'/'+dateParts[0];
+
             this.$el.empty();
             this.ui = {};
             this.ui.link = $("<a>").attr("href", this.model.get("url")).appendTo(this.$el);
-            this.ui.title = $("<h3>").html(this.model.get("title")).appendTo(this.ui.link);
+            this.ui.title = $("<h3>").html(this.model.get("title")+' par '+this.model.get('author').name+' le '+date).appendTo(this.ui.link);
             this.ui.excerpt = $("<p>").addClass("excerpt").html(this.model.get("excerpt")).appendTo(this.ui.link);
         }
 

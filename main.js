@@ -20,9 +20,9 @@ Xebia = {
         $('.dot2').bind('click', function() {
             Xebia.next();
         });
-        var timer = setInterval(function(){Xebia.next()}, 10000);
-        var timerSmallLogo = setInterval(function(){Xebia.nextClient('.logo-small div')}, 5500);
-        var timerSmallLogo = setInterval(function(){Xebia.nextClient('.logo-large div')}, 4500);
+        setInterval(function(){Xebia.next()}, 10000);
+        setInterval(function(){Xebia.nextClient('.logo-small div')}, 5500);
+        setInterval(function(){Xebia.nextClient('.logo-large div')}, 4500);
 
         this.initLogos();
 
