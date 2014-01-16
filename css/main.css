@@ -470,6 +470,10 @@ h1, h2 {
     margin-bottom: 32px;
 }
 
+.sensibilisation.lean-startup {
+    background: url('../images/picto/lean-strat-up.png') no-repeat;
+}
+
 .audit {
     background: url('../images/audit.png') no-repeat;
     display: inline-block;
@@ -613,7 +617,7 @@ h1, h2 {
     width: 112px;
     font-size: 27px;
     left: 229px;
-    top: 341px;
+    top: 363px;
 }
 
 .profils .devops {

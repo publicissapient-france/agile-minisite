@@ -7,5 +7,16 @@
     url('fonts/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuLightItalic';
+    src: url('fonts/Ubuntu-LI-webfont.eot');
+    src: url('fonts/Ubuntu-LI-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Ubuntu-LI-webfont.woff') format('woff'),
+    url('fonts/Ubuntu-LI-webfont.ttf') format('truetype'),
+    url('fonts/Ubuntu-LI-webfont.svg#UbuntuLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
