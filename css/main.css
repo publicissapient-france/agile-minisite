@@ -471,8 +471,35 @@ h1, h2 {
 }
 
 .sensibilisation.lean-startup {
-    background: url('../images/picto/lean-strat-up.png') no-repeat;
+    background: url('../images/picto/picto-lean-start-up.png') no-repeat center;
 }
+
+.sensibilisation.tma-agile {
+    background: url('../images/picto/picto-tma-agile.png') no-repeat center;
+}
+
+.sensibilisation.transformation-agile {
+    background: url('../images/picto/picto-transformation-agile.png') no-repeat center;
+}
+.sensibilisation.centre-agile {
+    background: url('../images/picto/picto-centre-agile.png') no-repeat center;
+}
+
+.sensibilisation.vague-accompagnement-scrum {
+
+}
+
+.sensibilisation.vague-accompagnement-kanban {
+
+}
+
+.sensibilisation.analyse-maturite {
+    background: url('../images/picto/picto-annalyse-maturite.png') no-repeat center;
+}
+.sensibilisation.sauvetage-projet {
+
+}
+
 
 .audit {
     background: url('../images/audit.png') no-repeat;
@@ -508,7 +535,7 @@ h1, h2 {
 }
 
 .title-missions {
-    margin-top: 132px;
+    margin-top: 127px;
     height: 40px;
     font: 13px 'UbuntuRegular', Arial, sans-serif;
     line-height: 15px;
