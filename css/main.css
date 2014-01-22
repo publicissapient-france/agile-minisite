@@ -486,18 +486,18 @@ h1, h2 {
 }
 
 .sensibilisation.vague-accompagnement-scrum {
-
+	 background: url('../images/picto/picto-accompagnement-scrum.png') no-repeat center;
 }
 
 .sensibilisation.vague-accompagnement-kanban {
-
+background: url('../images/picto/picto-accompagnement-kanban.png') no-repeat center;
 }
 
 .sensibilisation.analyse-maturite {
     background: url('../images/picto/picto-annalyse-maturite.png') no-repeat center;
 }
 .sensibilisation.sauvetage-projet {
-
+background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
 }
 
 
