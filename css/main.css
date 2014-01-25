@@ -242,7 +242,7 @@ h1, h2 {
     position: relative;
     z-index: 9;
     margin: auto;
-    height: 400px;
+
 }
 
 .careers .careers-content h2 {
@@ -264,14 +264,7 @@ h1, h2 {
 
 .careers .job-line .job {
     float: left;
-    width: 50%;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.careers .job-line .job {
-    float: left;
-    width: 49%;
+    width: 100%;
     margin-bottom: 20px;
     position: relative;
 }
@@ -280,139 +273,60 @@ h1, h2 {
     float: left;
 }
 
-.careers .job-line .job-right {
-    float: right;
-}
-
 .careers .job-line .job .title {
-    color: #6a205f;
     font: 16px 'UbuntuLight', Arial, sans-serif;
+    color: #6a205f;
     background-color: white;
     text-transform: uppercase;
+    float: left;
+    width: 355px;
 }
 
-.careers .job-line .job .title-dsi {
-    color: #6a205f;
-    font: 16px 'UbuntuLight', Arial, sans-serif;
-    background-color: white;
-    text-transform: uppercase;
+.careers .job-line .job .job-desc {
+    float: right;
+    width: 610px;
 }
 
-.careers .job-line .job .title-editeur {
-    color: #6a205f;
-    font: 16px 'UbuntuLight', Arial, sans-serif;
-    background-color: white;
-    text-transform: uppercase;
-}
-
-.careers .job-line .job .title-ssii {
-    color: #6a205f;
-    font: 16px 'UbuntuLight', Arial, sans-serif;
-    background-color: white;
-    text-transform: uppercase;
-}
-
-.careers .job-line .job .title-ad {
-    color: #6a205f;
-    font: 16px 'UbuntuLight', Arial, sans-serif;
-    background-color: white;
-    text-transform: uppercase;
+.careers .job-line .job .inner-job:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .careers .job-line .job .title:before {
     content: '';
     width: 150px;
     height: 104px;
-    background: url('../images/dsi.png');
+
     display: inline-block;
     vertical-align: middle;
 }
 
 .careers .job-line .job .title-dsi:before {
-    content: '';
-    width: 150px;
-    height: 104px;
     background: url('../images/picto-dsi.png');
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .careers .job-line .job .title-editeur:before {
-    content: '';
-    width: 150px;
-    height: 104px;
     background: url('../images/picto-editeur.png');
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .careers .job-line .job .title-ssii:before {
-    content: '';
-    width: 150px;
-    height: 104px;
     background: url('../images/picto-ssii.png');
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .careers .job-line .job .title-ad:before {
-    content: '';
-    width: 150px;
-    height: 104px;
     background: url('../images/picto-ad.png');
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.careers .job-line .job .job-detail-dsi {
-    font: 17px 'UbuntuLight', Arial, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    padding: 2px 10px;
-    background: #00a0d4;
-}
-
-.careers .job-line .job .job-detail-editeur {
-    font: 17px 'UbuntuLight', Arial, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    padding: 2px 10px;
-    background: #f99b1d;
-}
-
-.careers .job-line .job .job-detail-ssii {
-    font: 17px 'UbuntuLight', Arial, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    padding: 2px 10px;
-    background: #df0075;
-}
-
-.careers .job-line .job .job-detail-ad {
-    font: 17px 'UbuntuLight', Arial, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    padding: 2px 10px;
-    background: #afcd37;
 }
 
 .careers .job-line .job .inner-job {
     width: 97%;
+    background-color: white;
+    padding: 20px 0;
 }
 
 .careers .job-line .job.job-left .inner-job {
     margin-left: 0;
     margin-right: auto;
-}
-
-.careers .job-line .job.job-center .inner-job {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.careers .job-line .job.job-right .inner-job {
-    margin-left: auto;
-    margin-right: 0;
 }
 
 .careers .job-line:after {
@@ -481,25 +395,26 @@ h1, h2 {
 .sensibilisation.transformation-agile {
     background: url('../images/picto/picto-transformation-agile.png') no-repeat center;
 }
+
 .sensibilisation.centre-agile {
     background: url('../images/picto/picto-centre-agile.png') no-repeat center;
 }
 
 .sensibilisation.vague-accompagnement-scrum {
-	 background: url('../images/picto/picto-accompagnement-scrum.png') no-repeat center;
+    background: url('../images/picto/picto-accompagnement-scrum.png') no-repeat center;
 }
 
 .sensibilisation.vague-accompagnement-kanban {
-background: url('../images/picto/picto-accompagnement-kanban.png') no-repeat center;
+    background: url('../images/picto/picto-accompagnement-kanban.png') no-repeat center;
 }
 
 .sensibilisation.analyse-maturite {
     background: url('../images/picto/picto-annalyse-maturite.png') no-repeat center;
 }
-.sensibilisation.sauvetage-projet {
-background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
-}
 
+.sensibilisation.sauvetage-projet {
+    background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
+}
 
 .audit {
     background: url('../images/audit.png') no-repeat;
@@ -593,7 +508,7 @@ background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
 }
 
 .case-study h2 {
-    color:white;
+    color: white;
 }
 
 /*  profils */
@@ -621,14 +536,13 @@ background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
     position: absolute;
     font-weight: 600;
     text-align: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .profil-popup .description img {
-    float:left;
-    margin-right:20px;
+    float: left;
+    margin-right: 20px;
 }
-
 
 .profils .coach-agile {
     width: 110px;
