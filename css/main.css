@@ -484,10 +484,44 @@ h1, h2 {
 }
 
 .logo-small {
-    background: url('../images/trust-logos-small.png') 0 0 no-repeat; /*-170px*/
+  
     height: 80px;
     width: 984px;
     display: inline-block;
+}
+
+.logo-small .pmu {
+    height:80px;
+    display: inline-block;
+    background: url('../images/trust-logos-small.png') -65px 0 no-repeat;
+    width: 120px;
+    margin-left: 65px;
+}
+
+.logo-small .sfr {
+    height:80px;
+    display: inline-block;
+    background: url('../images/trust-logos-small.png') -185px 0 no-repeat;
+    width:185px;
+}
+.logo-small .europcar {
+    height:80px;
+    display: inline-block;
+    background: url('../images/trust-logos-small.png') -377px 0 no-repeat;
+    width:185px;
+
+}
+.logo-small .societe-generale {
+    height:80px;
+    display: inline-block;
+    background: url('../images/trust-logos-small.png') -567px 0 no-repeat;
+    width:211px;
+}
+.logo-small .axa-tech {
+    height:80px;
+    display: inline-block;
+    background: url('../images/trust-logos-small.png') -782px 0 no-repeat;
+    width:187px;
 }
 
 .logos-2 {
