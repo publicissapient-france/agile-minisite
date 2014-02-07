@@ -613,6 +613,7 @@ background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
     height: 80px;
     background-color: rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .logo-small-2 {
@@ -659,8 +660,8 @@ background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
 }
 
 .profil-popup .description img {
-    float:left;
-    margin-right:20px;
+    float:right;
+    margin: 0 20px;
 }
 
 
@@ -967,3 +968,17 @@ background: url('../images/picto/picto-sauvetage-projet.png') no-repeat center;
     margin-top: 10px;
     float: left;
 }
+.profil-popup-left {
+    width:423px;
+    float: left;
+}
+.profil-popup-right {
+    width:250px;
+    float: left;
+}
+.profil-popup-box {
+    width:750px;
+    margin-top: 20px;
+}
+
+
