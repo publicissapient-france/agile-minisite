@@ -77,6 +77,11 @@
     	text-transform: uppercase;
     	margin-bottom: 8px;
 	}
+	.featherlight .featherlight-content h4 {
+		color: #6a205f;
+    	font: 30px 'UbuntuRegular', Arial, sans-serif;
+    	margin-bottom: 8px;
+	}
 	.featherlight .featherlight-content ul {
 		color: #333333;
     	font: 15px 'UbuntuRegular', Arial, sans-serif;
