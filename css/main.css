@@ -269,20 +269,10 @@ h1, h2 {
     position: relative;
 }
 
-.careers .job-line .job {
-    float: left;
-    width: 49%;
-    margin-bottom: 20px;
-    position: relative;
-}
-
 .careers .job-line .job-left {
     float: left;
 }
 
-.careers .job-line .job-right {
-    float: right;
-}
 
 .careers .job-line .job .title {
     color: #6a205f;
