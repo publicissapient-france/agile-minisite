@@ -405,12 +405,6 @@ h1, h2 {
     margin-right: 0;
 }
 
-.careers .job-line:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 /* our offer */
 
 .our-offer {
