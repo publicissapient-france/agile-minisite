@@ -183,7 +183,6 @@ h1, h2 {
     position: absolute;
     top: 312px;
     left: 47px;
-    background: url('../images/hello-laptop.png') no-repeat;
     z-index: 5;
 }
 
