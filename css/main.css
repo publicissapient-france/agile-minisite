@@ -179,11 +179,12 @@ h1, h2 {
 
 .hello .hello-content .hello-techtrends {
     width: 364px;
-    height: 293px;
+    height: 246px;
     position: absolute;
-    top: 374px;
+    top: 408px;
     left: 151px;
     z-index: 5;
+    overflow:  hidden;
 }
 
 .hello .hello-content .hello-techtrends h2{
